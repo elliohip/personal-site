@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(249, 231, 208);
+    padding: 10px;
+}
+
+
+header.index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main.index {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.main-info {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.main-info .button {
+    align-self: center;
+    max-width: 145px;
+}
+.projects-completed {
+    grid-row: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    background-color: rgb(60, 158, 163);
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+.header-btn {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+.project-item {
+    color: black;
+    text-decoration: none;
+}
+
+.project-item:hover {
+    text-decoration: underline;
+}
