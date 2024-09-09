@@ -3,6 +3,9 @@ body {
     padding: 10px;
 }
 
+.resume {
+    color: blue;
+}
 
 header.index {
     display: flex;
