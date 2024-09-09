@@ -1,5 +1,5 @@
 ---
 title: Elliot Hipski
 layout: page
-filename: index.md
+filename: INDEX.md
 --- 
