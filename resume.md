@@ -1,5 +1,5 @@
 ---
 title: Document
 layout: page
-filename: RESUME.md
---- 
+permalink: /resume.html
+---
