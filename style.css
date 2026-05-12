@@ -16,6 +16,10 @@ header.index {
     padding-right: 20px;
 }
 
+.contact {
+    backdrop-filter: blur();
+}
+
 main.index {
     display: grid;
     grid-template-columns: 1fr 1fr;
