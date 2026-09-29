@@ -27,18 +27,18 @@ main.index {
     grid-template-columns: 1fr 1fr 1fr;
     /* grid-template-rows: 1fr 1fr; */
 }
+
+
 .main-info {
     display: flex;
     flex-direction: column;
-    grid-column-start: 2;
-    grid-column-end: 3;
 }
 .main-info .button {
     align-self: center;
     max-width: 145px;
 }
 .projects-completed {
-    grid-row: 1 / -1;
+    
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -64,3 +64,9 @@ main.index {
     text-decoration: underline;
 }
 
+@media (min-width: 768px) {
+    main.index {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
